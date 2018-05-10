@@ -1,28 +1,22 @@
-<<<<<<< HEAD
-class answers
-  def initialize
-    
-  end
-end
-=======
+
+
 class Answers
-   
-    def insults
+  def nice_answers
     [
-        "Please jump off a cliff", 
-        "Contrary to popular belief, smoking saves lives",
-        "It's really mediocre",
-        "Yo mama"
+      "Yes",
+      "No",
+      "Ask again later",
+      "Pobably not smart",
+      "It is decidedly so",
+      "Ask again later"
     ]
-    end
+  end
 
-    def hurl
-        puts insults.sample(1)
-    end
+  def random_answer
+    nice_answers[Random.rand(nice_answers.size)]
+    puts nice_answers.sample
+  end
+
+  
 end
 
-output = Answers.new
-
-output.hurl
-
->>>>>>> initial commit
