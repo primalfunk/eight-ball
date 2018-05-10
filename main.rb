@@ -10,14 +10,24 @@ puts "\n\n"
 
 puts "a) Add an answer"
 puts "b) Print all available answers"
-puts "c) Reset answer base to defaults, or just"
+puts "c) Reset answer base to defaults"
+puts "q) Quit the program, or just"
 print "Ask a question of the All-knowing Eight Ball: "
 question = gets.strip
 
 #handle user input
-  #use the class methods from the answers file
-
-
+if question == 'a'
+  #use the answers class method to add another answer to the array
+elsif question == 'b'
+  #class method to print all answers
+elsif question == 'c'
+  #class method to reset answer base to defaults
+elsif question == 'q'
+  puts "No more Eight Ball for you."
+  exit
+else
+  answers.nice_answer
+end
 
 
 
