@@ -12,7 +12,7 @@ class Answers
         "Please jump off a cliff", 
         "Contrary to popular belief, smoking saves lives",
         "It's really mediocre",
-        ""
+        "Yo mama"
     ]
     end
 
