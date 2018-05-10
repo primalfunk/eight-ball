@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-class answers
-  def initialize
-    
-  end
-end
-=======
 class Answers
    
     def insults
@@ -21,8 +14,3 @@ class Answers
     end
 end
 
-output = Answers.new
-
-output.hurl
-
->>>>>>> initial commit
