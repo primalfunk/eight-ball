@@ -1,11 +1,12 @@
 class Answers
-   
-    def insults
+  def nice_answers
     [
-        "Please jump off a cliff", 
-        "Contrary to popular belief, smoking saves lives",
-        "It's really mediocre",
-        "Yo mama"
+      "Yes",
+      "No",
+      "Ask again later",
+      "Pobably not smart",
+      "It is decidedly so",
+      "Ask again later"
     ]
     end
 
