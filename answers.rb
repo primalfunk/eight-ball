@@ -25,7 +25,7 @@ class Answers
     ]
   end
 
-  def random_answer
+  def self.random_answer
     nice_answers[Random.rand(nice_answers.size)]
     puts nice_answers.sample
   end
